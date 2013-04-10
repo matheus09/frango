@@ -1,6 +1,0 @@
---- Movimentação do Projeto.
-
-Alpha 0. 
-
-- Esqueleto do projeto com primeiros arquivos.
-- Backup do Banco de Dados.
