@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<header_vars>
+<graphics_color>FFFFFF</graphics_color>
+<animation_loop>no</animation_loop>
+
+<header>
+	<image blur="no">images/flashimages/your_image1.jpg</image>
+</header>	
+
+
+<music_file loop="no" music_control="no" play_music="yes">sounds/music.mp3</music_file>
+<play_transition_sound_file>yes</play_transition_sound_file>
+<display_preload graphic_color="669ac6">yes</display_preload>
+<replay display="yes" x_pos="493" y_pos="135" size="8" letter_spacing="1" bgd_color="FFFFFF" text_color="000000"> REPLAY</replay>
+</header_vars>
