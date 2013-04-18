@@ -1,0 +1,71 @@
+td {color: #31333B;
+font-family:arial,helvetica,sans-serif;
+font-weight:normal;
+font-size:11px;
+}
+.title1 {
+color:#31333B;font-family:arial, helvetica, sans-serif;font-weight:bold;font-size:13px;
+}
+.title2 {
+color:#3aaedf;font-family:arial,helvetica,sans-serif;font-weight:bold;font-size:11px;
+}
+
+#copyright {
+	height: 35px;/* don't change */
+	background-color:#3aaedf;
+	font-size: 11px;
+	padding-top:15px;
+	text-align:center;
+}
+
+.dottedline { 
+	width:100%;
+	border-top:dotted 1px #669ac6;
+	margin: 10px 0px 0px 0px;
+	height:0px;
+}
+
+.boxleft {
+	width:240px;
+	padding: 10px 10px 0px 0px;
+	border-right:dotted 1px #669ac6;
+	float:left;	
+}
+
+.boxright {
+	width:240px;
+	border-left:dotted 1px #669ac6;
+	padding: 10px 0px 0px 10px;
+	margin: 0px 0px 0px 250px;
+
+}
+
+#wrap {overflow:hidden;padding-bottom:10px;}
+.bold {
+	font-weight:bold;
+}
+
+#logo {
+	font-size: 1.2em;	
+	margin-bottom: 20px;
+}
+
+#logo h1 {	
+	padding: 15px 0px 0px 50px;
+	font-size: 1.1em;	
+	font-weight: normal;
+	letter-spacing:-1px;
+}
+
+#logo img {
+	float:left;
+}
+
+
+#holder { position: absolute; top: 0; left: 0;}
+#copy {clear: both;}
+html, body, #holder { min-height: 100%; width: 100%; height: 100%;}
+html>body, html>body #holder { height: auto;}
+#free-flash-header a:hover {color:#cdd2d7;text-decoration:none}
+#resol {text-align:left;font-family:Verdana, Arial, Helvetica, sans-serif;position:fixed;padding-left:10px;width:250px;top:0px;left:1280px;margin:0 auto;background:#bfc6d9;} #resol h1 {background:none;font-size:1.2em;letter-spacing:10px;padding:0px;margin:0px;border: 0px;} #resol h2 {font-size:0.6em;letter-spacing:3px;padding:0px;margin:0px;background:none;}
+
