@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Máquina: localhost
--- Data de Criação: 29-Abr-2013 às 13:59
+-- Data de Criação: 29-Abr-2013 às 14:14
 -- Versão do servidor: 5.0.91-community-cll
 -- versão do PHP: 5.3.17
 
@@ -88,17 +88,17 @@ CREATE TABLE IF NOT EXISTS `fornecedor` (
   `idFornecedor` int(2) NOT NULL auto_increment,
   `nome` varchar(20) NOT NULL,
   `endereco` varchar(50) NOT NULL,
-  `cnpj` int(11) NOT NULL,
-  `telefone` varchar(8) NOT NULL,
+  `cnpj` varchar(18) NOT NULL,
+  `telefone` varchar(14) NOT NULL,
   PRIMARY KEY  (`idFornecedor`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
 --
 -- Extraindo dados da tabela `fornecedor`
 --
 
 INSERT INTO `fornecedor` (`idFornecedor`, `nome`, `endereco`, `cnpj`, `telefone`) VALUES
-(1, 'lol', 'okokok', 0, '');
+(3, 'Guto', 'Guto Rua', '11.986.923/0001-80', '(84) 9819-8347');
 
 -- --------------------------------------------------------
 
